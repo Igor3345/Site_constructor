@@ -263,6 +263,7 @@ img {
 .menu-button {
     display: none;
     z-index: 100;
+    background-color: #8F793F !important;
 }
 
 @media (max-width: 760px) {
@@ -293,7 +294,7 @@ img {
         top: 40px;
         width: 30px;
         height: 2px;
-        background-color: #fff;
+        background-color: #8F793F;
         border: none;
         cursor: pointer;
     }
@@ -306,7 +307,7 @@ img {
         left: 0px;
         width: 30px;
         height: 2px;
-        background-color: #fff;
+        background-color: #8F793F;
         margin-top: -7px;
         transition: transform 0.2s;
     }
@@ -319,24 +320,26 @@ img {
         left: 0px;
         width: 30px;
         height: 2px;
-        background-color: #fff;
+        background-color: #8F793F;
         margin-top: 7px;
         transition: transform 0.2s;
     }
 
     .menu-button-active {
         height: 0;
-        background: transparent;
+        background: #fff;
     }
 
     .menu-button-active:before {
         transform: rotate(45deg);
         margin-top: 0;
+        background: #fff;
     }
 
     .menu-button-active:after {
         transform: rotate(-45deg);
         margin-top: 0;
+        background: #fff;
     }
 
     .header {
