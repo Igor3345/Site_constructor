@@ -294,19 +294,19 @@ movieConstructor('.app', {
 	main: {
 		genre: '2020,криминал, комедия, боевик',
 		rating: 9,
-		description: 'Один ушлый американец ещё со студенческих лет приторговывал наркотиками,' +
-			'а теперь придумал схему нелегального обогащения с использованием поместий обедневшей английской' +
-			'аристократии и очень неплохо на этом разбогател. Другой пронырливый журналист приходит к Рэю, правой руке американца,' +
-			' и предлагает тому купить киносценарий, в котором подробно описаны преступления его босса при участии других представителей' +
-			'лондонского криминального мира — партнёра-еврея, китайской диаспоры, чернокожих спортсменов и даже русского олигарха.',
+		description: `Один ушлый американец ещё со студенческих лет приторговывал наркотиками,
+			а теперь придумал схему нелегального обогащения с использованием поместий обедневшей английской
+			аристократии и очень неплохо на этом разбогател. Другой пронырливый журналист приходит к Рэю, правой руке американца,
+			 и предлагает тому купить киносценарий, в котором подробно описаны преступления его босса при участии других представителей
+			лондонского криминального мира — партнёра-еврея, китайской диаспоры, чернокожих спортсменов и даже русского олигарха.`,
 		trailer: 'https://www.filmpro.ru/materials/70484',
 		slider: [
-			{ img: 'images/acters/Charlie_Hunnam.jpg', title: 'В роли Рэя', subtitle: null, titleColor: '#8F793F' },
-			{ img: 'images/acters/Colin_Farrell.jpg', title: 'В роли тренера', subtitle: null, titleColor: '#8F793F' },
-			{ img: 'images/acters/Genrie_Golding.jpg', title: 'В роли сухого глаза', subtitle: null, titleColor: '#8F793F' },
-			{ img: 'images/acters/Hew_Grant.jpg', title: 'В роли Флетчера', subtitle: null, titleColor: '#8F793F' },
-			{ img: 'images/acters/Matthew_McConaughey.jpg', title: 'В роли Микки Пирсона', subtitle: null, titleColor: '#8F793F' },
-			{ img: 'images/acters/Michelle_Dockery.jpg', title: 'В роли Розалинды Пирсон', subtitle: null, titleColor: '#8F793F' }
+			{ img: 'images/acters/Charlie_Hunnam.jpg', title: 'В роли Рэя', subtitle: 'Чарли Ханнэм', titleColor: '#8F793F' },
+			{ img: 'images/acters/Colin_Farrell.jpg', title: 'В роли тренера', subtitle: 'Коллин Фаррел', titleColor: '#8F793F' },
+			{ img: 'images/acters/Genrie_Golding.jpg', title: 'В роли сухого глаза', subtitle: 'Генри Голдинг', titleColor: '#8F793F' },
+			{ img: 'images/acters/Hew_Grant.jpg', title: 'В роли Флетчера', subtitle: 'Хью Грант', titleColor: '#8F793F' },
+			{ img: 'images/acters/Matthew_McConaughey.jpg', title: 'В роли Микки Пирсона', subtitle: 'Мэтью Макконахи', titleColor: '#8F793F' },
+			{ img: 'images/acters/Michelle_Dockery.jpg', title: 'В роли Розалинды Пирсон', subtitle: 'Мишель Докери', titleColor: '#8F793F' }
 		]
 	},
 	footer: {
