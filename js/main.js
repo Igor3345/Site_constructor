@@ -146,6 +146,9 @@ const createMain = ({ title, main: { genre, rating, description, trailer, slider
 				src: item.img,
 				alt: (item.title ? item.title + ' ' : '').trim() + (item.subtitle ? item.subtitle : '').trim()
 			});
+			if (item.titleColor) {
+				cardImg.style.borderColor = item.titleColor;
+			}
 			card.append(cardImg);
 
 			if (item.title || item.subtitle) {
